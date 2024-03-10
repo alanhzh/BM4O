@@ -16,7 +16,7 @@ bl_info = {
 
 
 class BM4O_UIPanel(bpy.types.Panel):  # Class name corrected with _PT_ prefix
-    bl_label = "MomaskGenOpenPose"
+    bl_label = "BM4O"
     bl_idname = "BM4O_UIPanel"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
