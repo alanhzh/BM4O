@@ -20,7 +20,7 @@ class BM4O_UIPanel(bpy.types.Panel):  # Class name corrected with _PT_ prefix
     bl_idname = "BM4O_UIPanel"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'mkop'
+    bl_category = 'BM4O'
 
     def draw(self, context):
         layout = self.layout
